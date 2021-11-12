@@ -1,6 +1,6 @@
 import 'package:bmi/constant/app_constant.dart';
 import 'package:flutter/material.dart';
-import '';
+import '../constant/app_constant.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text("Bmi Calculator"),
         centerTitle: true,
         titleTextStyle: TextStyle(
-          color: Colors.amber,
+          color: Colors.black,
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontWeight: FontWeight.w300,
                             color: Colors.white.withOpacity(.8))),
                   ),
-                  color: accentHexColor,
+                  color: Colors.black12,
                 ),
                 Container(
                   width: 150,
@@ -57,15 +57,15 @@ class _HomeScreenState extends State<HomeScreen> {
                         fontWeight: FontWeight.w300,
                         color: Colors.black),
                     keyboardType: TextInputType.number,
-                    // decoration: InputDecoration(
-                    //     border: InputBorder.none,
-                    //     hintText: 'Weight',
-                    //     hintStyle: TextStyle(
-                    //         fontSize: 42,
-                    //         fontWeight: FontWeight.w300,
-                    //         color: Colors.white.withOpacity(.8))),
+                    decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: 'Weight',
+                        hintStyle: TextStyle(
+                            fontSize: 42,
+                            fontWeight: FontWeight.w300,
+                            color: Colors.white.withOpacity(.8))),
                   ),
-                  color: accentHexColor,
+                  color: Colors.black12,
                 ),
               ],
             )
