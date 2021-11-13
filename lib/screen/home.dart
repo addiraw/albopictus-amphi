@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text("Bmi Calculator"),
         centerTitle: true,
         titleTextStyle: TextStyle(
-          color: Colors.black,
+          color: mainHexColor,
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     style: TextStyle(
                         fontSize: 42,
                         fontWeight: FontWeight.w300,
-                        color: Colors.black),
+                        color: mainHexColor),
                     keyboardType: TextInputType.number,
                     decoration: InputDecoration(
                         border: InputBorder.none,
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontWeight: FontWeight.w300,
                             color: Colors.white.withOpacity(.8))),
                   ),
-                  color: Colors.black12,
+                  color: mainHexColor,
                 ),
                 Container(
                   width: 150,
@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             fontWeight: FontWeight.w300,
                             color: Colors.white.withOpacity(.8))),
                   ),
-                  color: Colors.black12,
+                  color: mainHexColor,
                 ),
               ],
             )
