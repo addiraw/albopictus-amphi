@@ -33,6 +33,7 @@
 
 # Web related
 lib/generated_plugin_registrant.dart
+lib/constant/api.dart
 
 # Symbolication related
 app.*.symbols
