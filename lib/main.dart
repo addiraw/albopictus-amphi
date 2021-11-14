@@ -31,6 +31,7 @@ class _CalculateBmiState extends State<CalculateBmi> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'BMI',
       home: Scaffold(
         appBar: AppBar(
