@@ -1,9 +1,7 @@
-switch (calculatedBmi) {
-  case :
-    
-    break;
-  default:
-}
+
+
+
+
 
 
 

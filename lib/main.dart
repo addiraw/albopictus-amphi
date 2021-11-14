@@ -73,6 +73,46 @@ class _CalculateBmiState extends State<CalculateBmi> {
                   } catch (e) {
                     print(e);
                   }
+
+
+
+double bmi=calculatedBmi;
+if(bmi<16)
+{
+  print('Severe Thinness');
+}
+if(	bmi>=16 &&bmi< 17)
+{
+   print('Moderate Thinness');
+}
+if(bmi>=17&&bmi< 18.5)
+{
+ print('Mild Thinness	');
+}
+if(bmi>=	18.5 &&bmi< 25)
+{
+   print('Normal');
+}
+if(bmi>=25 &&bmi<  30)
+{
+   print('Overweight	');
+}
+if(bmi>=30 &&bmi< 35)
+{
+   print('Obese Class I	');
+}
+if(bmi>=35 &&bmi<  40)
+{
+   print('Obese Class II	');
+}
+if(bmi> 40)
+{
+  
+ print('Obese Class III');	
+}
+
+
+
                 },
                 icon: Icon(Icons.calculate)),
             Text('$calculatedBmi'),
