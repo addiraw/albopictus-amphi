@@ -34,6 +34,7 @@
 # Web related
 lib/generated_plugin_registrant.dart
 lib/constant/api.dart
+/Assets.jpeg
 
 # Symbolication related
 app.*.symbols
