@@ -1,5 +1,6 @@
 
- # BMI
+ # Project include
+ ## BMI
  ## BMI Application the most favourite Public app.
 ![asset](https://github.com/addiraw/bmi/blob/master/Assets.jpeg?raw=true)
  ## Project Details
@@ -10,3 +11,11 @@
    1. `parse_server_sdk_flutter: ^3.1.0` 
  
 <!--  - `hello` -->
+
+
+
+## Nomenclature
+- Project name
+
+  albopictus-	L	painted white	Asian tiger mosquito, Aedes albopictus Moneilema albopictum	albopictus – albopicta – albopictum
+  amphi-	G ἀμφί (amphí)	of all kinds, on all sides	amphibian; Amphipoda	All pages with titles beginning with Amphi
